@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JRJdsK4887CFdCd398XxDpwxIVu5+Ryuw62G19OU7Wunx5FTZDqR/fxfiwInlxbbDdGHx7ThBD/iGYKUx4md9Q==",
+  "dgSpecHash": "4kW1M9sfX+UluHMtSPTdDNF+qnHc2Keq2s99m6Q2bUuD9GMdORT+yaZtEf71gFZOS7wIZ95VEdJxir3QvBl4Jg==",
   "success": true,
-  "projectFilePath": "C:\\bootcamp_examples\\university\\university.csproj",
+  "projectFilePath": "C:\\BootCamp2022\\university\\university.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pekka\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\pekka\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

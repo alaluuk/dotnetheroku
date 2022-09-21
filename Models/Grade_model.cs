@@ -9,7 +9,7 @@ namespace university
     public class Grade
     {
         public int idgrade { get; set; }
-        public DateTime date { get; set; }
+        public string date { get; set; }
         public int idstudent { get; set; }
         public int idteacher { get; set; }
         public int idcourse { get; set; }
@@ -92,12 +92,21 @@ namespace university
                     var post = new Grade(Db)
                     {
                         idgrade = reader.GetInt32(0),
-                        date = reader.GetDateTime(1),
+                        date = reader.GetDateTime(1).ToString(),
                         idstudent = reader.GetInt32(2),
                         idteacher = reader.GetInt32(3),
                         idcourse = reader.GetInt32(4),
                         grade = reader.GetInt32(5)
+                        
                     };
+                     if (post.date is System.DBNull)
+                        {
+                        post.date=string.Empty;
+                        }
+                    else
+                    {
+                    post.date=date;
+                    }
                     posts.Add(post);
                 }
             }

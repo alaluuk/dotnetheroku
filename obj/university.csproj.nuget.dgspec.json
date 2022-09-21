@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\bootcamp_examples\\university\\university.csproj": {}
+    "C:\\BootCamp2022\\university\\university.csproj": {}
   },
   "projects": {
-    "C:\\bootcamp_examples\\university\\university.csproj": {
+    "C:\\BootCamp2022\\university\\university.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\bootcamp_examples\\university\\university.csproj",
+        "projectUniqueName": "C:\\BootCamp2022\\university\\university.csproj",
         "projectName": "university",
-        "projectPath": "C:\\bootcamp_examples\\university\\university.csproj",
+        "projectPath": "C:\\BootCamp2022\\university\\university.csproj",
         "packagesPath": "C:\\Users\\pekka\\.nuget\\packages\\",
-        "outputPath": "C:\\bootcamp_examples\\university\\obj\\",
+        "outputPath": "C:\\BootCamp2022\\university\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pekka\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9,7 +9,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient(_ => new Database(builder.Configuration.GetConnectionString("DefaultConnection")));
+if (builder.Environment.EnvironmentName == "Development") {
+   builder.Services.AddTransient(_ => new Database(builder.Configuration.GetConnectionString("DefaultConnection")));
+}
+else{
+    builder.Services.AddTransient(_ => new Database(builder.Configuration.GetConnectionString(Environment.GetEnvironmentVariable("DATABASE_URL"))));
+}
+
 
 var app = builder.Build();
 
